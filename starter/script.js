@@ -1,11 +1,11 @@
 // Add heading Financial Analysis
 {
-    document.write("Financial Analysis<br>-------------------------<br>");
+    console.log("Financial Analysis");
 }
 
 // Log total number of months in data
 {
-    document.write("Total Months: " + finances.length)
+    console.log("Total Months: " + finances.length)
 }
 
 // Total amount of profit/losses
@@ -15,7 +15,7 @@ let sum=0;
 for(let i=0; i<finances.length; i++){
     sum=sum+finances[i][1]
 }
-document.write("<br>Total: $", sum)
+console.log("Total: $", sum)
 
 // The average of the changes in Profit/Losses over the entire period
 
@@ -37,7 +37,7 @@ let finalValue = totalValue/85;
 
 let roundedValue = finalValue.toFixed(2);
 
-document.write("<br>Average Change $", roundedValue)
+console.log("Average Change $", roundedValue)
 
 // Sort array
 
@@ -45,8 +45,8 @@ finances.sort(function(a, b) {
     return a[1] - b[1];
   })
 
-  document.write("<br>Greatest Increase in Profits: ", finances.pop())
+  console.log("Greatest Increase in Profits: ", finances.pop())
 
-  document.write("<br>Greatest Decrease in Profits: ", finances.shift())
+  console.log("Greatest Decrease in Profits: ", finances.shift())
 
  
