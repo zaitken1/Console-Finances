@@ -33,9 +33,20 @@ let totalValue = differenceArray.reduce(function(a,b){
 
 })
 
-let finalValue = totalValue/finances.length
+let finalValue = totalValue/85;
 
-let roundedValue = finalValue.toFixed(2)
+let roundedValue = finalValue.toFixed(2);
 
 document.write("<br>Average Change $", roundedValue)
 
+// Sort array
+
+finances.sort(function(a, b) {
+    return a[1] - b[1];
+  })
+
+  document.write("<br>Greatest Increase in Profits: ", finances.pop())
+
+  document.write("<br>Greatest Decrease in Profits: ", finances.shift())
+
+ 
