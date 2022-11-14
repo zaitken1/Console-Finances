@@ -16,8 +16,11 @@ In this application, I have used JavaScript to output a financial summary into t
 
 ## Screenshot
 
-![Screenshot of Zara Aitken's developer portfolio website](./starter/assets/images/screenshot.jpg)
+![Screenshot of Zara Aitken's developer portfolio website](./assets/images/screenshot.jpg)
 
 ## Links
 
-Live application: 
+Live application: https://zaitken1.github.io/Console-Finances/
+
+GitHub Repository: https://github.com/zaitken1/Console-Finances
+
